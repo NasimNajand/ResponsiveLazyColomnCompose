@@ -62,7 +62,7 @@ class MainActivity : ComponentActivity() {
                             items(10){
                                 Text(
                                     text = "Item $it",
-                                    fontSize = 52.sp,
+                                    fontSize = 50.sp,
                                     modifier = Modifier.fillMaxWidth()
                                         .background(pastelLemon)
                                         .padding(16.dp)
@@ -75,7 +75,7 @@ class MainActivity : ComponentActivity() {
                             items(10){
                                 Text(
                                     text = "Item $it",
-                                    fontSize = 52.sp,
+                                    fontSize = 50.sp,
                                     modifier = Modifier.fillMaxWidth()
                                         .background(pastelPink)
                                         .padding(16.dp)
